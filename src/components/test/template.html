@@ -1,0 +1,21 @@
+<md-dialog>
+	<md-toolbar>
+		<div class="md-toolbar-tools"> 
+			<h2>foo</h2> 
+			<span flex></span>
+			<md-button class="md-icon-button" ng-click="vm.cancel()" >
+				<md-icon  aria-label="Close dialog">  
+					<i class="fa fa-times" aria-hidden="true"></i> 
+				</md-icon>
+			</md-button>
+		</div>
+	</md-toolbar> 
+	<md-dialog-content>
+		<label> foo </label>
+		<md-datepicker ng-model="ctrl.myDate" md-placeholder="Enter date"></md-datepicker>
+	</md-dialog-content> 
+	<md-dialog-actions layout="row">
+		<span flex></span>
+		<md-button aria label="foo"  class="" ng-click="vm.cancel()">
+	</md-dialog-actions>
+</md-dialog>
